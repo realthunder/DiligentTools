@@ -66,7 +66,7 @@ target_link_libraries(LibPng
 PRIVATE 
     Diligent-BuildSettings 
 PUBLIC
-    ZLib
+    ZLIB::ZLIB
 )
 
 source_group("src" FILES ${SOURCE})
